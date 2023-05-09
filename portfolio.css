@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#bck{
+    width: 100%;
+    height: 760px;
+    background-color: #1f242d;
+}
+#navbar{
+    width: 100%;
+    height: 100px;
+    color: white;
+    align-content: space-between;
+}
+#mainlist{
+    display: flex;
+    list-style: none;
+}
+.sli{
+    padding: 30px;
+    position: relative;
+    left: 820px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sli:hover{
+    cursor: pointer;
+    color: #0ef;
+}
+#img{
+    position: relative;
+    left: 15px;
+    top: -100px;
+    height: 220px;
+}
+#title{
+    color: white;
+    padding-left: 10%;
+    font-size: large;
+}
+#myself{
+    padding-left: 10%;
+    font-size: larger;
+    color: whitesmoke;
+    padding-top: 8px;
+}
+#title1{
+    color: white;
+    padding-left: 10%;
+    font-size: large;
+    padding-top: 8px;
+}
+#sub{
+    width: 350px;
+    font-weight: lighter;
+    font-size: 11px;
+    padding-left: 10%;
+    padding-top: 30px;
+    color: white;
+}
+#color{
+    color: #0ef;
+}
+.socialmedia a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    position: relative;
+    left: 10%;
+}
+.socialmedia a:hover{
+    background-color: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 11%;
+    position: relative;
+    top: -480px;
+}
+#myself:hover{
+    color: gold;
+    cursor: pointer;
+}
+#me{
+    width: 550px;
+    height: 540px;
+    position: relative;
+    right: -500px;
+    bottom: 400px;
+}
